@@ -10,7 +10,7 @@ def ver_tarefas(tarefas):
     status = "✔" if tarefa["completada"] else " "
     nome_tarefa = tarefa["tarefa"]
     print(f"{indice}. [{status}] {nome_tarefa}")
-    return
+  return
 
 def atualizar_nome_tarefa(tarefas, indice_tarefa, novo_nome_tarefa):
   indice_tarefa_ajustado = int(indice_tarefa) - 1
@@ -44,7 +44,7 @@ while True:
   print("5. Deletar tarefas completadas")
   print("6. Sair")
 
-  escolha = input("Digite a sua esclha: ")
+  escolha = input("Digite a sua escolha: ")
 
   if escolha == "1":
     nome_tarefa = input("Digite o nome da tarefa que deseja adicionar: ")
