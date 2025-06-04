@@ -23,7 +23,7 @@ def atualizar_nome_tarefa(tarefas, indice_tarefa, novo_nome_tarefa):
 
 def completar_tarefa(tarefas, indice_tarefa):
   indice_tarefa_ajustado = int(indice_tarefa) -1
-  tarefas[indice_tarefa_ajustado]["Completada"] = True
+  tarefas[indice_tarefa_ajustado]["completada"] = True
   print(f"Tarefa {indice_tarefa} marcada como completada")
   return
 
